@@ -1,0 +1,12084 @@
+{
+"metadata": {
+ "statistics": {
+  "statisticalPeriods": {
+   "statisticalPeriod": {
+	"periodTagName": "monthly",
+	"description": "各個月份統計值之30年平均"
+   }
+  },
+  "weatherElement": [
+   {
+	"tagName": "stationPressure",
+	"description": "30年平均之當月份測站氣壓統計值",
+	"units": "hPa",
+	"statisticalMethods": {
+	 "statisticalMethod": {
+	  "methodTagName": "mean",
+	  "description": "stnpres,平均測站氣壓,Mean Pressure at Station"
+	 }
+	}
+   },
+   {
+	"tagName": "temperature",
+	"description": "30年平均之當月份氣溫統計值",
+	"units": "˚C",
+	"statisticalMethods": {
+	 "statisticalMethod": [
+	  {
+	   "methodTagName": "mean",
+	   "description": "tx,平均氣溫,Mean Temperature"
+	  },
+	  {
+	   "methodTagName": "maximum",
+	   "description": "meantxmax,最高氣溫,Mean Maximum Temperature"
+	  },
+	  {
+	   "methodTagName": "minimum",
+	   "description": "meantxmin,最低氣溫,Mean Minimum Temperature"
+	  },
+	  {
+	   "methodTagName": "maxGE30Days",
+	   "description": "txmaxge30day,最高氣溫&gt;=30℃日數,Number of Days with Maximun Temperature &gt;= 30℃"
+	  },
+	  {
+	   "methodTagName": "minLE10Days",
+	   "description": "txminle10day,最低氣溫&lt;=10℃日數,Number of Days with Minimum Temperature &lt;= 10℃"
+	  },
+	  {
+	   "methodTagName": "meanGE25Days",
+	   "description": "txge25day,氣溫&gt;=25℃日數,Number of Days with Mean Temperature &gt;= 25℃"
+	  }
+	 ]
+	}
+   },
+   {
+	"tagName": "relativeHumidity",
+	"description": "30年平均之當月份相對溼度統計值",
+	"units": "%",
+	"statisticalMethods": {
+	 "statisticalMethod": {
+	  "methodTagName": "mean",
+	  "description": "rh,平均相對濕度,Mean Relative Humidity"
+	 }
+	}
+   },
+   {
+	"tagName": "cloudCover",
+	"description": "30年平均之當月份雲量(十分量)統計值",
+	"units": "tenths",
+	"statisticalMethods": {
+	 "statisticalMethod": {
+	  "methodTagName": "mean",
+	  "description": "CamtMean,平均雲量,Mean Cloudiness"
+	 }
+	}
+   },
+   {
+	"tagName": "sunshineDuration",
+	"description": "30年平均之當月份日照時數統計值",
+	"units": "h",
+	"statisticalMethods": {
+	 "statisticalMethod": {
+	  "methodTagName": "total",
+	  "description": "sunshine,總日照時數,Sunshine Duration"
+	 }
+	}
+   },
+   {
+	"tagName": "precipitation",
+	"description": "30年平均之當月份降水量統計值值",
+	"units": "mm",
+	"statisticalMethods": {
+	 "statisticalMethod": [
+	  {
+	   "methodTagName": "accumulation",
+	   "description": "precp,降水量,Precipitation"
+	  },
+	  {
+	   "methodTagName": "GE01Days",
+	   "description": "precpday,降水量&gt;=0.1mm日數,Number of Days with Precipitation &gt;=0.1mm"
+	  }
+	 ]
+	}
+   },
+   {
+	"tagName": "windSpeed",
+	"description": "30年平均之當月份風速統計值",
+	"units": "m s^-1",
+	"statisticalMethods": {
+	 "statisticalMethod": {
+	  "methodTagName": "mean",
+	  "description": "ws,平均風速,Mean Wind Velocity(10 minutes)"
+	 }
+	}
+   }
+  ]
+ }
+},
+
+  "location": [
+   {
+	"station": {
+	 "stationID": "466900",
+	 "stationName": "淡水",
+	 "stationNameEN": "TAMSUI",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1017.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1015.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1011.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1007.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1004.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1004.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1003.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1018.9"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "15.4",
+		"maximum": "18.8",
+		"minimum": "12.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "5.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "15.7",
+		"maximum": "19.3",
+		"minimum": "13.0",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "4.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "17.7",
+		"maximum": "21.6",
+		"minimum": "14.7",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "2.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "21.4",
+		"maximum": "25.4",
+		"minimum": "18.3",
+		"maxGE30Days": "2.5",
+		"meanGE25Days": "3.1",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "24.7",
+		"maximum": "28.8",
+		"minimum": "21.6",
+		"maxGE30Days": "13.0",
+		"meanGE25Days": "16.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.3",
+		"maximum": "31.3",
+		"minimum": "24.2",
+		"maxGE30Days": "23.0",
+		"meanGE25Days": "25.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.0",
+		"maximum": "33.3",
+		"minimum": "25.7",
+		"maxGE30Days": "29.7",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.7",
+		"maximum": "33.1",
+		"minimum": "25.5",
+		"maxGE30Days": "28.6",
+		"meanGE25Days": "30.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "26.9",
+		"maximum": "30.9",
+		"minimum": "23.8",
+		"maxGE30Days": "19.9",
+		"meanGE25Days": "24.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "23.6",
+		"maximum": "27.1",
+		"minimum": "20.9",
+		"maxGE30Days": "6.1",
+		"meanGE25Days": "8.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.0",
+		"maximum": "24.4",
+		"minimum": "18.3",
+		"maxGE30Days": "1.1",
+		"meanGE25Days": "2.1",
+		"minLE10Days": "0.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "17.3",
+		"maximum": "20.6",
+		"minimum": "14.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "3.2"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "80.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "82.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "81.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "79.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "79.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "79.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "75.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "76.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "76.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "77.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "78.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "79.0"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.2"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "83.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "80.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "92.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "105.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "135.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "155.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "226.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "208.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "171.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "127.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "101.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "84.1"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "105.9",
+		"GE01Days": "13.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "148.0",
+		"GE01Days": "13.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "153.4",
+		"GE01Days": "15.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "157.6",
+		"GE01Days": "13.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "239.8",
+		"GE01Days": "12.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "257.4",
+		"GE01Days": "12.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "119.8",
+		"GE01Days": "8.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "218.3",
+		"GE01Days": "10.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "290.1",
+		"GE01Days": "11.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "165.8",
+		"GE01Days": "12.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "104.2",
+		"GE01Days": "12.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "112.4",
+		"GE01Days": "12.5"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.1"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466920",
+	 "stationName": "臺北",
+	 "stationNameEN": "TAIPEI",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1019.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1018.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1015.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1012.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1008.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1005.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1004.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1004.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1013.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1016.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1019.3"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.6",
+		"maximum": "19.6",
+		"minimum": "14.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.2",
+		"maximum": "20.7",
+		"minimum": "14.7",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "19.0",
+		"maximum": "22.9",
+		"minimum": "16.2",
+		"maxGE30Days": "1.8",
+		"meanGE25Days": "0.8",
+		"minLE10Days": "0.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "22.5",
+		"maximum": "26.7",
+		"minimum": "19.4",
+		"maxGE30Days": "8.9",
+		"meanGE25Days": "8.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.8",
+		"maximum": "30.1",
+		"minimum": "22.8",
+		"maxGE30Days": "16.8",
+		"meanGE25Days": "19.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.3",
+		"maximum": "32.9",
+		"minimum": "25.3",
+		"maxGE30Days": "24.8",
+		"meanGE25Days": "27.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "30.1",
+		"maximum": "35.0",
+		"minimum": "26.8",
+		"maxGE30Days": "30.5",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "29.7",
+		"maximum": "34.4",
+		"minimum": "26.6",
+		"maxGE30Days": "29.8",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.8",
+		"maximum": "31.6",
+		"minimum": "25.2",
+		"maxGE30Days": "21.6",
+		"meanGE25Days": "27.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.7",
+		"maximum": "27.8",
+		"minimum": "22.6",
+		"maxGE30Days": "7.8",
+		"meanGE25Days": "12.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "22.0",
+		"maximum": "24.9",
+		"minimum": "19.8",
+		"maxGE30Days": "3.3",
+		"meanGE25Days": "3.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "18.2",
+		"maximum": "21.1",
+		"minimum": "16.1",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "77.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "77.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "76.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "74.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "74.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "75.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "70.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "72.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "73.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "74.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "75.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "75.9"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.9"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "76.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "79.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "95.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "96.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "113.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "114.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "176.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "182.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "151.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "114.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "93.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "78.6"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "93.8",
+		"GE01Days": "13.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "129.4",
+		"GE01Days": "12.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "157.8",
+		"GE01Days": "14.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "151.4",
+		"GE01Days": "14.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "245.2",
+		"GE01Days": "14.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "354.6",
+		"GE01Days": "15.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "214.2",
+		"GE01Days": "11.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "336.5",
+		"GE01Days": "14.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "336.8",
+		"GE01Days": "13.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "162.6",
+		"GE01Days": "12.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "89.3",
+		"GE01Days": "12.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "96.9",
+		"GE01Days": "13.1"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.9"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467610",
+	 "stationName": "成功",
+	 "stationNameEN": "CHENGGONG",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1015.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1014.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1012.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1009.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1005.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1002.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1002.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1001.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1004.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1009.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1012.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1015.1"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "19.0",
+		"maximum": "22.4",
+		"minimum": "16.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "19.4",
+		"maximum": "22.9",
+		"minimum": "16.9",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "20.9",
+		"maximum": "24.3",
+		"minimum": "18.3",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "1.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "23.2",
+		"maximum": "26.7",
+		"minimum": "20.6",
+		"maxGE30Days": "3.3",
+		"meanGE25Days": "8.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.4",
+		"maximum": "29.0",
+		"minimum": "22.8",
+		"maxGE30Days": "12.5",
+		"meanGE25Days": "20.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.3",
+		"maximum": "30.7",
+		"minimum": "24.6",
+		"maxGE30Days": "21.7",
+		"meanGE25Days": "28.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.1",
+		"maximum": "31.8",
+		"minimum": "25.2",
+		"maxGE30Days": "27.8",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "27.9",
+		"maximum": "31.6",
+		"minimum": "25.0",
+		"maxGE30Days": "27.1",
+		"meanGE25Days": "30.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.0",
+		"maximum": "30.7",
+		"minimum": "24.2",
+		"maxGE30Days": "22.7",
+		"meanGE25Days": "28.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "25.2",
+		"maximum": "28.8",
+		"minimum": "22.6",
+		"maxGE30Days": "9.2",
+		"meanGE25Days": "17.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "22.9",
+		"maximum": "26.4",
+		"minimum": "20.4",
+		"maxGE30Days": "1.0",
+		"meanGE25Days": "3.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "20.2",
+		"maximum": "23.5",
+		"minimum": "17.8",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "74.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "76.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "77.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "79.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "81.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "82.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "79.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "79.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "78.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "74.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "73.9"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.0"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "69.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "62.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "74.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "88.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "124.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "188.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "237.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "209.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "161.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "140.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "101.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "80.3"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "67.3",
+		"GE01Days": "15.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "70.1",
+		"GE01Days": "15.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "70.1",
+		"GE01Days": "15.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "88.3",
+		"GE01Days": "14.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "159.8",
+		"GE01Days": "16.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "170.8",
+		"GE01Days": "12.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "245.5",
+		"GE01Days": "9.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "342.2",
+		"GE01Days": "11.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "329.3",
+		"GE01Days": "15.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "283.1",
+		"GE01Days": "15.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "153.3",
+		"GE01Days": "14.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "87.2",
+		"GE01Days": "14.1"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "3.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "3.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "3.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "3.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "4.2"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466940",
+	 "stationName": "基隆",
+	 "stationNameEN": "KEELUNG",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1016.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1014.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1010.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1006.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1003.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1003.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1002.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1006.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1011.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1018.0"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.1",
+		"maximum": "18.4",
+		"minimum": "14.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "16.4",
+		"maximum": "19.1",
+		"minimum": "14.3",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "18.1",
+		"maximum": "21.0",
+		"minimum": "15.7",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "21.6",
+		"maximum": "24.7",
+		"minimum": "19.0",
+		"maxGE30Days": "2.8",
+		"meanGE25Days": "3.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "24.8",
+		"maximum": "28.0",
+		"minimum": "22.3",
+		"maxGE30Days": "10.3",
+		"meanGE25Days": "15.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.6",
+		"maximum": "31.2",
+		"minimum": "25.0",
+		"maxGE30Days": "21.6",
+		"meanGE25Days": "26.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.5",
+		"maximum": "33.3",
+		"minimum": "26.7",
+		"maxGE30Days": "29.7",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "29.1",
+		"maximum": "32.5",
+		"minimum": "26.5",
+		"maxGE30Days": "28.1",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.2",
+		"maximum": "29.8",
+		"minimum": "25.0",
+		"maxGE30Days": "14.0",
+		"meanGE25Days": "26.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.2",
+		"maximum": "26.1",
+		"minimum": "22.4",
+		"maxGE30Days": "2.8",
+		"meanGE25Days": "9.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.5",
+		"maximum": "23.6",
+		"minimum": "19.6",
+		"maxGE30Days": "0.8",
+		"meanGE25Days": "1.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "18.0",
+		"maximum": "20.1",
+		"minimum": "16.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.8"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "78.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "79.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "79.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "76.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "71.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "73.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "75.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "75.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "77.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.6"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "8.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.7"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "52.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "57.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "80.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "91.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "111.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "138.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "229.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "208.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "147.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "85.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "65.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "48.5"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "327.8",
+		"GE01Days": "19.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "349.8",
+		"GE01Days": "17.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "274.4",
+		"GE01Days": "18.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "211.0",
+		"GE01Days": "16.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "284.1",
+		"GE01Days": "16.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "290.4",
+		"GE01Days": "14.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "119.5",
+		"GE01Days": "8.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "211.4",
+		"GE01Days": "11.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "390.1",
+		"GE01Days": "15.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "377.6",
+		"GE01Days": "17.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "396.9",
+		"GE01Days": "18.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "356.6",
+		"GE01Days": "19.5"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "3.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "3.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "3.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.7"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467300",
+	 "stationName": "東吉島",
+	 "stationNameEN": "DONGJIDAO",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1013.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1013.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1010.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1008.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1005.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1002.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1001.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1001.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1003.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1007.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1010.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1013.5"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "18.1",
+		"maximum": "20.0",
+		"minimum": "16.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "18.5",
+		"maximum": "20.6",
+		"minimum": "16.9",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "20.7",
+		"maximum": "23.2",
+		"minimum": "18.9",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "23.6",
+		"maximum": "26.1",
+		"minimum": "21.9",
+		"maxGE30Days": "0.8",
+		"meanGE25Days": "8.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "26.0",
+		"maximum": "28.5",
+		"minimum": "24.4",
+		"maxGE30Days": "6.3",
+		"meanGE25Days": "24.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.8",
+		"maximum": "29.9",
+		"minimum": "26.2",
+		"maxGE30Days": "15.6",
+		"meanGE25Days": "29.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.7",
+		"maximum": "31.0",
+		"minimum": "26.9",
+		"maxGE30Days": "24.6",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.4",
+		"maximum": "30.8",
+		"minimum": "26.6",
+		"maxGE30Days": "22.4",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.6",
+		"maximum": "30.0",
+		"minimum": "26.0",
+		"maxGE30Days": "16.0",
+		"meanGE25Days": "29.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "25.5",
+		"maximum": "27.7",
+		"minimum": "24.3",
+		"maxGE30Days": "2.5",
+		"meanGE25Days": "21.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "23.1",
+		"maximum": "25.1",
+		"minimum": "21.8",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "4.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "19.9",
+		"maximum": "21.7",
+		"minimum": "18.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "78.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "79.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "78.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "80.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "81.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "83.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "82.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "83.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "81.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "77.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "77.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.7"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "4.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "6.6"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "119.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "110.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "149.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "171.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "202.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "215.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "259.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "232.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "229.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "214.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "149.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "121.1"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "21.8",
+		"GE01Days": "4.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "28.9",
+		"GE01Days": "4.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "38.4",
+		"GE01Days": "4.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "70.8",
+		"GE01Days": "6.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "117.3",
+		"GE01Days": "7.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "183.9",
+		"GE01Days": "9.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "189.9",
+		"GE01Days": "9.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "243.3",
+		"GE01Days": "10.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "108.2",
+		"GE01Days": "5.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "35.6",
+		"GE01Days": "1.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "32.9",
+		"GE01Days": "2.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "26.1",
+		"GE01Days": "2.6"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "10.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "9.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "9.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "10.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "11.4"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467620",
+	 "stationName": "蘭嶼",
+	 "stationNameEN": "LANYU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "980.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "980.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "978.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "976.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "973.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "971.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "970.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "969.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "972.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "975.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "978.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "980.5"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "18.6",
+		"maximum": "20.8",
+		"minimum": "17.0",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "19.0",
+		"maximum": "21.4",
+		"minimum": "17.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "20.4",
+		"maximum": "22.9",
+		"minimum": "18.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "22.3",
+		"maximum": "24.8",
+		"minimum": "20.7",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "1.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "24.3",
+		"maximum": "26.7",
+		"minimum": "22.7",
+		"maxGE30Days": "0.5",
+		"meanGE25Days": "12.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "25.9",
+		"maximum": "28.0",
+		"minimum": "24.3",
+		"maxGE30Days": "2.8",
+		"meanGE25Days": "24.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "26.2",
+		"maximum": "28.6",
+		"minimum": "24.6",
+		"maxGE30Days": "4.2",
+		"meanGE25Days": "28.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "26.0",
+		"maximum": "28.5",
+		"minimum": "24.3",
+		"maxGE30Days": "4.4",
+		"meanGE25Days": "27.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "25.3",
+		"maximum": "27.7",
+		"minimum": "23.6",
+		"maxGE30Days": "1.5",
+		"meanGE25Days": "19.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "23.7",
+		"maximum": "25.9",
+		"minimum": "22.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "5.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.9",
+		"maximum": "23.9",
+		"minimum": "20.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "19.5",
+		"maximum": "21.5",
+		"minimum": "18.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "85.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "86.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "86.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "88.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "89.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "90.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "89.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "89.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "88.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "85.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "86.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "85.3"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "7.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.4"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "73.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "73.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "96.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "109.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "127.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "142.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "179.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "158.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "136.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "125.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "81.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "64.3"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "249.9",
+		"GE01Days": "22.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "190.7",
+		"GE01Days": "18.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "135.2",
+		"GE01Days": "16.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "142.9",
+		"GE01Days": "14.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "247.2",
+		"GE01Days": "15.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "245.8",
+		"GE01Days": "13.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "252.0",
+		"GE01Days": "14.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "328.8",
+		"GE01Days": "16.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "361.1",
+		"GE01Days": "18.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "299.0",
+		"GE01Days": "18.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "282.6",
+		"GE01Days": "19.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "243.5",
+		"GE01Days": "21.7"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "8.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.7"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466990",
+	 "stationName": "花蓮",
+	 "stationNameEN": "HUALIEN",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1017.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1014.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1011.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1008.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1005.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1004.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1003.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1018.2"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "18.3",
+		"maximum": "21.4",
+		"minimum": "15.8",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "18.7",
+		"maximum": "21.9",
+		"minimum": "16.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "20.3",
+		"maximum": "23.6",
+		"minimum": "17.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "22.8",
+		"maximum": "26.2",
+		"minimum": "20.1",
+		"maxGE30Days": "2.6",
+		"meanGE25Days": "6.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.3",
+		"maximum": "28.7",
+		"minimum": "22.5",
+		"maxGE30Days": "11.5",
+		"meanGE25Days": "18.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.5",
+		"maximum": "30.9",
+		"minimum": "24.7",
+		"maxGE30Days": "22.5",
+		"meanGE25Days": "27.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.7",
+		"maximum": "32.4",
+		"minimum": "25.6",
+		"maxGE30Days": "29.2",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.4",
+		"maximum": "32.2",
+		"minimum": "25.4",
+		"maxGE30Days": "28.6",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.0",
+		"maximum": "30.7",
+		"minimum": "24.2",
+		"maxGE30Days": "21.6",
+		"meanGE25Days": "27.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.9",
+		"maximum": "28.3",
+		"minimum": "22.2",
+		"maxGE30Days": "7.2",
+		"meanGE25Days": "14.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "22.5",
+		"maximum": "25.8",
+		"minimum": "19.9",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "3.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "19.7",
+		"maximum": "22.8",
+		"minimum": "17.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.1"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "75.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "76.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "78.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "80.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "80.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "77.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "78.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "77.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "75.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "74.0"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "4.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.4"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "68.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "67.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "85.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "98.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "124.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "180.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "255.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "228.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "163.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "124.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "93.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "74.2"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "57.6",
+		"GE01Days": "13.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "74.7",
+		"GE01Days": "14.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "76.7",
+		"GE01Days": "14.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "76.6",
+		"GE01Days": "14.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "186.9",
+		"GE01Days": "15.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "165.5",
+		"GE01Days": "11.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "198.5",
+		"GE01Days": "8.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "258.8",
+		"GE01Days": "10.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "329.9",
+		"GE01Days": "13.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "350.6",
+		"GE01Days": "12.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "175.1",
+		"GE01Days": "12.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "83.6",
+		"GE01Days": "11.2"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.2"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467540",
+	 "stationName": "大武",
+	 "stationNameEN": "DAWU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1017.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1017.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1015.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1012.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1008.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1006.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1005.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1004.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1017.8"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "20.5",
+		"maximum": "23.7",
+		"minimum": "17.7",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "21.0",
+		"maximum": "24.4",
+		"minimum": "18.2",
+		"maxGE30Days": "0.8",
+		"meanGE25Days": "0.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "22.5",
+		"maximum": "26.2",
+		"minimum": "19.6",
+		"maxGE30Days": "2.9",
+		"meanGE25Days": "4.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "24.7",
+		"maximum": "28.7",
+		"minimum": "21.6",
+		"maxGE30Days": "10.1",
+		"meanGE25Days": "13.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "26.6",
+		"maximum": "30.7",
+		"minimum": "23.5",
+		"maxGE30Days": "19.1",
+		"meanGE25Days": "25.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.3",
+		"maximum": "32.6",
+		"minimum": "25.0",
+		"maxGE30Days": "25.2",
+		"meanGE25Days": "28.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.7",
+		"maximum": "32.8",
+		"minimum": "25.3",
+		"maxGE30Days": "28.5",
+		"meanGE25Days": "30.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.2",
+		"maximum": "32.3",
+		"minimum": "25.1",
+		"maxGE30Days": "27.5",
+		"meanGE25Days": "30.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.4",
+		"maximum": "31.2",
+		"minimum": "24.3",
+		"maxGE30Days": "24.3",
+		"meanGE25Days": "28.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "26.0",
+		"maximum": "29.4",
+		"minimum": "23.0",
+		"maxGE30Days": "12.3",
+		"meanGE25Days": "24.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "24.2",
+		"maximum": "27.4",
+		"minimum": "21.4",
+		"maxGE30Days": "2.1",
+		"meanGE25Days": "9.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "21.6",
+		"maximum": "24.6",
+		"minimum": "19.0",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "0.7",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "70.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "72.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "72.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "74.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "77.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "76.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "76.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "78.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "77.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "72.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "70.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "69.2"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "5.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.4"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "106.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "103.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "124.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "142.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "168.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "209.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "238.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "207.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "171.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "161.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "132.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "106.9"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "42.5",
+		"GE01Days": "10.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "44.3",
+		"GE01Days": "10.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "42.8",
+		"GE01Days": "10.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "72.4",
+		"GE01Days": "11.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "174.7",
+		"GE01Days": "13.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "367.5",
+		"GE01Days": "13.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "388.1",
+		"GE01Days": "12.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "458.2",
+		"GE01Days": "14.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "391.4",
+		"GE01Days": "15.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "203.3",
+		"GE01Days": "13.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "92.9",
+		"GE01Days": "9.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "46.4",
+		"GE01Days": "9.9"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.2"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467440",
+	 "stationName": "高雄",
+	 "stationNameEN": "KAOHSIUNG",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1017.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1015.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1012.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1009.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1007.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1006.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1005.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1008.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1017.7"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "19.7",
+		"maximum": "24.2",
+		"minimum": "16.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "20.7",
+		"maximum": "25.0",
+		"minimum": "17.2",
+		"maxGE30Days": "0.5",
+		"meanGE25Days": "1.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "23.0",
+		"maximum": "27.0",
+		"minimum": "19.7",
+		"maxGE30Days": "3.4",
+		"meanGE25Days": "7.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "25.7",
+		"maximum": "29.3",
+		"minimum": "22.8",
+		"maxGE30Days": "13.0",
+		"meanGE25Days": "20.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "27.8",
+		"maximum": "31.0",
+		"minimum": "25.2",
+		"maxGE30Days": "24.2",
+		"meanGE25Days": "29.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.9",
+		"maximum": "32.1",
+		"minimum": "26.3",
+		"maxGE30Days": "26.4",
+		"meanGE25Days": "29.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.4",
+		"maximum": "32.7",
+		"minimum": "26.7",
+		"maxGE30Days": "28.9",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.9",
+		"maximum": "32.1",
+		"minimum": "26.3",
+		"maxGE30Days": "27.2",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "28.5",
+		"maximum": "31.8",
+		"minimum": "25.9",
+		"maxGE30Days": "27.6",
+		"meanGE25Days": "29.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "26.9",
+		"maximum": "30.1",
+		"minimum": "24.4",
+		"maxGE30Days": "17.9",
+		"meanGE25Days": "28.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "24.5",
+		"maximum": "28.1",
+		"minimum": "21.6",
+		"maxGE30Days": "4.3",
+		"meanGE25Days": "13.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "21.2",
+		"maximum": "25.3",
+		"minimum": "17.9",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "1.0",
+		"minLE10Days": "0.1"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "71.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "71.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "71.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "74.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "76.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "79.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "78.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "79.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "77.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "74.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "73.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "71.6"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "4.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "4.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "5.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "5.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "4.8"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "177.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "176.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "194.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "197.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "207.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "215.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "220.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "189.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "188.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "191.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "166.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "157.2"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "19.1",
+		"GE01Days": "3.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "17.7",
+		"GE01Days": "3.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "32.3",
+		"GE01Days": "3.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "68.4",
+		"GE01Days": "5.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "202.2",
+		"GE01Days": "9.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "416.2",
+		"GE01Days": "12.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "377.2",
+		"GE01Days": "13.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "512.4",
+		"GE01Days": "16.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "224.5",
+		"GE01Days": "10.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "53.4",
+		"GE01Days": "4.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "25.6",
+		"GE01Days": "2.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "19.2",
+		"GE01Days": "2.8"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.1"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467660",
+	 "stationName": "臺東",
+	 "stationNameEN": "TAITUNG",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1017.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1015.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1012.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1008.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1006.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1005.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1004.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1018.2"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "19.7",
+		"maximum": "23.2",
+		"minimum": "17.1",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "20.2",
+		"maximum": "23.8",
+		"minimum": "17.5",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "0.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "21.8",
+		"maximum": "25.4",
+		"minimum": "19.0",
+		"maxGE30Days": "1.2",
+		"meanGE25Days": "3.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "24.1",
+		"maximum": "27.8",
+		"minimum": "21.3",
+		"maxGE30Days": "7.8",
+		"meanGE25Days": "12.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "26.4",
+		"maximum": "30.0",
+		"minimum": "23.7",
+		"maxGE30Days": "18.4",
+		"meanGE25Days": "23.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.3",
+		"maximum": "31.8",
+		"minimum": "25.5",
+		"maxGE30Days": "25.3",
+		"meanGE25Days": "28.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.1",
+		"maximum": "32.6",
+		"minimum": "26.2",
+		"maxGE30Days": "28.8",
+		"meanGE25Days": "30.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.8",
+		"maximum": "32.2",
+		"minimum": "26.1",
+		"maxGE30Days": "28.1",
+		"meanGE25Days": "30.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.7",
+		"maximum": "31.3",
+		"minimum": "25.0",
+		"maxGE30Days": "24.5",
+		"meanGE25Days": "28.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "25.8",
+		"maximum": "29.4",
+		"minimum": "23.2",
+		"maxGE30Days": "13.2",
+		"meanGE25Days": "21.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "23.6",
+		"maximum": "27.1",
+		"minimum": "21.1",
+		"maxGE30Days": "1.9",
+		"meanGE25Days": "7.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "20.8",
+		"maximum": "24.3",
+		"minimum": "18.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.6",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "71.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "72.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "73.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "77.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "77.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "76.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "76.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "76.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "72.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "72.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "70.7"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.8"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "93.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "85.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "102.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "116.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "148.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "210.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "253.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "223.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "173.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "157.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "122.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "98.6"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "33.1",
+		"GE01Days": "8.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "40.7",
+		"GE01Days": "9.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "36.5",
+		"GE01Days": "9.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "64.8",
+		"GE01Days": "10.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "138.3",
+		"GE01Days": "14.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "201.9",
+		"GE01Days": "11.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "250.2",
+		"GE01Days": "10.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "316.4",
+		"GE01Days": "11.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "295.6",
+		"GE01Days": "12.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "215.0",
+		"GE01Days": "9.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "99.3",
+		"GE01Days": "8.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "45.8",
+		"GE01Days": "8.4"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1.9"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467480",
+	 "stationName": "嘉義",
+	 "stationNameEN": "CHIAYI",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1015.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1014.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1012.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1009.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1006.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1004.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1003.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1002.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1005.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1009.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1012.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1015.2"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.8",
+		"maximum": "22.5",
+		"minimum": "12.9",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "4.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.7",
+		"maximum": "23.0",
+		"minimum": "14.1",
+		"maxGE30Days": "1.0",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "2.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "20.2",
+		"maximum": "25.4",
+		"minimum": "16.2",
+		"maxGE30Days": "3.7",
+		"meanGE25Days": "1.5",
+		"minLE10Days": "0.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "23.5",
+		"maximum": "28.4",
+		"minimum": "19.5",
+		"maxGE30Days": "11.1",
+		"meanGE25Days": "10.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "26.3",
+		"maximum": "30.9",
+		"minimum": "22.6",
+		"maxGE30Days": "22.7",
+		"meanGE25Days": "24.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.3",
+		"maximum": "32.8",
+		"minimum": "24.7",
+		"maxGE30Days": "26.5",
+		"meanGE25Days": "29.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.9",
+		"maximum": "33.4",
+		"minimum": "25.4",
+		"maxGE30Days": "29.2",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.4",
+		"maximum": "32.8",
+		"minimum": "25.2",
+		"maxGE30Days": "28.2",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.4",
+		"maximum": "32.1",
+		"minimum": "24.0",
+		"maxGE30Days": "26.3",
+		"meanGE25Days": "28.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.9",
+		"maximum": "30.1",
+		"minimum": "21.1",
+		"maxGE30Days": "17.7",
+		"meanGE25Days": "15.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "22.0",
+		"maximum": "27.6",
+		"minimum": "18.0",
+		"maxGE30Days": "5.9",
+		"meanGE25Days": "2.6",
+		"minLE10Days": "0.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "18.4",
+		"maximum": "24.3",
+		"minimum": "14.2",
+		"maxGE30Days": "0.8",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "3.6"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "77.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "79.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "79.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "79.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "79.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "77.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "77.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "80.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "80.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "78.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "78.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.8"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.3"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "161.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "139.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "157.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "157.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "175.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "186.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "206.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "182.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "186.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "197.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "158.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "159.2"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "27.5",
+		"GE01Days": "5.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "44.9",
+		"GE01Days": "5.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "53.0",
+		"GE01Days": "6.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "86.6",
+		"GE01Days": "8.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "170.0",
+		"GE01Days": "10.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "318.6",
+		"GE01Days": "13.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "387.4",
+		"GE01Days": "15.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "443.8",
+		"GE01Days": "17.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "212.3",
+		"GE01Days": "9.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "30.2",
+		"GE01Days": "2.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "21.5",
+		"GE01Days": "3.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "25.8",
+		"GE01Days": "4.1"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.1"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467060",
+	 "stationName": "蘇澳",
+	 "stationNameEN": "SU-AO",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1016.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1014.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1011.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1007.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1004.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1003.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1003.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1006.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1018.1"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.6",
+		"maximum": "19.3",
+		"minimum": "14.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.2",
+		"maximum": "19.9",
+		"minimum": "14.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "19.0",
+		"maximum": "22.0",
+		"minimum": "16.3",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "21.8",
+		"maximum": "24.9",
+		"minimum": "19.1",
+		"maxGE30Days": "1.8",
+		"meanGE25Days": "4.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "24.6",
+		"maximum": "27.6",
+		"minimum": "22.0",
+		"maxGE30Days": "6.5",
+		"meanGE25Days": "14.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.3",
+		"maximum": "30.4",
+		"minimum": "24.6",
+		"maxGE30Days": "19.3",
+		"meanGE25Days": "26.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.8",
+		"maximum": "31.8",
+		"minimum": "26.0",
+		"maxGE30Days": "28.8",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.5",
+		"maximum": "31.5",
+		"minimum": "25.7",
+		"maxGE30Days": "28.1",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "26.8",
+		"maximum": "29.7",
+		"minimum": "24.3",
+		"maxGE30Days": "15.0",
+		"meanGE25Days": "26.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.0",
+		"maximum": "26.5",
+		"minimum": "21.8",
+		"maxGE30Days": "2.2",
+		"meanGE25Days": "10.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.2",
+		"maximum": "23.8",
+		"minimum": "19.0",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "2.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "18.0",
+		"maximum": "20.6",
+		"minimum": "15.8",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.7"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "79.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "80.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "79.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "80.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "81.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "80.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "76.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "77.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "78.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "79.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "82.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "80.6"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.5"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "60.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "63.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "86.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "96.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "116.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "164.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "247.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "222.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "153.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "93.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "69.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "55.8"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "378.6",
+		"GE01Days": "20.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "293.7",
+		"GE01Days": "19.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "193.6",
+		"GE01Days": "18.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "184.3",
+		"GE01Days": "16.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "266.6",
+		"GE01Days": "19.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "229.9",
+		"GE01Days": "14.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "165.8",
+		"GE01Days": "9.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "268.5",
+		"GE01Days": "11.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "450.1",
+		"GE01Days": "16.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "714.1",
+		"GE01Days": "20.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "705.7",
+		"GE01Days": "20.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "584.3",
+		"GE01Days": "21.5"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.9"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467080",
+	 "stationName": "宜蘭",
+	 "stationNameEN": "YILAN",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1020.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1018.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1016.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1013.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1009.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1006.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1005.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1005.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1008.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1014.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1017.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1020.3"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.6",
+		"maximum": "19.7",
+		"minimum": "14.0",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.1",
+		"maximum": "20.4",
+		"minimum": "14.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "19.0",
+		"maximum": "22.7",
+		"minimum": "16.0",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "21.9",
+		"maximum": "25.7",
+		"minimum": "18.8",
+		"maxGE30Days": "3.0",
+		"meanGE25Days": "4.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "24.7",
+		"maximum": "28.5",
+		"minimum": "21.7",
+		"maxGE30Days": "11.4",
+		"meanGE25Days": "15.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.3",
+		"maximum": "31.4",
+		"minimum": "24.3",
+		"maxGE30Days": "23.0",
+		"meanGE25Days": "26.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.9",
+		"maximum": "33.2",
+		"minimum": "25.6",
+		"maxGE30Days": "29.7",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.6",
+		"maximum": "32.8",
+		"minimum": "25.4",
+		"maxGE30Days": "29.1",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "26.8",
+		"maximum": "30.6",
+		"minimum": "24.0",
+		"maxGE30Days": "20.1",
+		"meanGE25Days": "26.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "23.8",
+		"maximum": "27.1",
+		"minimum": "21.3",
+		"maxGE30Days": "5.3",
+		"meanGE25Days": "9.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.1",
+		"maximum": "24.2",
+		"minimum": "18.7",
+		"maxGE30Days": "0.5",
+		"meanGE25Days": "1.7",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "17.9",
+		"maximum": "20.9",
+		"minimum": "15.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "80.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "81.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "79.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "80.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "82.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "81.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "77.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "79.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "79.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "80.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "83.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "81.4"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.5"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "68.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "70.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "93.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "97.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "115.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "155.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "235.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "213.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "151.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "92.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "72.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "63.7"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "155.2",
+		"GE01Days": "17.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "147.0",
+		"GE01Days": "15.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "115.2",
+		"GE01Days": "16.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "125.5",
+		"GE01Days": "15.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "222.5",
+		"GE01Days": "17.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "189.6",
+		"GE01Days": "14.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "140.2",
+		"GE01Days": "8.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "243.4",
+		"GE01Days": "11.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "409.6",
+		"GE01Days": "15.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "428.1",
+		"GE01Days": "18.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "335.8",
+		"GE01Days": "19.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "232.2",
+		"GE01Days": "18.5"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1.7"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466910",
+	 "stationName": "鞍部",
+	 "stationNameEN": "ANBU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "925.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "924.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "923.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "921.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "918.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "916.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "916.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "915.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "918.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "922.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "924.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "926.1"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "10.3",
+		"maximum": "13.3",
+		"minimum": "8.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "21.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "11.2",
+		"maximum": "14.6",
+		"minimum": "8.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "17.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "13.2",
+		"maximum": "17.1",
+		"minimum": "10.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "14.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "16.6",
+		"maximum": "20.5",
+		"minimum": "13.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "4.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "19.6",
+		"maximum": "23.2",
+		"minimum": "17.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "22.2",
+		"maximum": "25.6",
+		"minimum": "19.9",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "23.4",
+		"maximum": "27.4",
+		"minimum": "20.9",
+		"maxGE30Days": "1.2",
+		"meanGE25Days": "1.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "23.0",
+		"maximum": "26.8",
+		"minimum": "20.7",
+		"maxGE30Days": "0.8",
+		"meanGE25Days": "0.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "21.1",
+		"maximum": "24.3",
+		"minimum": "19.1",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "17.9",
+		"maximum": "20.5",
+		"minimum": "16.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "15.4",
+		"maximum": "18.1",
+		"minimum": "13.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "11.8",
+		"maximum": "14.6",
+		"minimum": "9.8",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "15.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "92.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "91.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "89.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "88.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "87.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "87.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "85.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "87.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "89.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "91.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "92.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "92.2"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "7.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.2"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1994",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "59.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "58.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "78.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "77.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "79.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "85.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "138.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "124.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "96.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "61.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "51.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "46.6"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "296.7",
+		"GE01Days": "21.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "291.3",
+		"GE01Days": "18.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "246.7",
+		"GE01Days": "18.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "222.3",
+		"GE01Days": "15.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "334.0",
+		"GE01Days": "15.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "341.1",
+		"GE01Days": "14.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "230.9",
+		"GE01Days": "9.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "400.8",
+		"GE01Days": "13.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "724.6",
+		"GE01Days": "16.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "683.6",
+		"GE01Days": "20.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "502.5",
+		"GE01Days": "20.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "422.6",
+		"GE01Days": "21.4"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "3.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "3.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "3.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.4"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466930",
+	 "stationName": "竹子湖",
+	 "stationNameEN": "ZHUZIHU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "950.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "949.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "947.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "944.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "942.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "940.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "939.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "939.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "941.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "946.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "948.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "950.5"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "12.0",
+		"maximum": "15.4",
+		"minimum": "9.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "16.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "12.8",
+		"maximum": "16.6",
+		"minimum": "10.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "13.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "14.8",
+		"maximum": "19.1",
+		"minimum": "11.9",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "9.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "18.2",
+		"maximum": "22.5",
+		"minimum": "15.3",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "21.3",
+		"maximum": "25.4",
+		"minimum": "18.6",
+		"maxGE30Days": "1.3",
+		"meanGE25Days": "1.1",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "23.7",
+		"maximum": "27.8",
+		"minimum": "21.3",
+		"maxGE30Days": "6.0",
+		"meanGE25Days": "7.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "25.0",
+		"maximum": "29.7",
+		"minimum": "22.4",
+		"maxGE30Days": "16.0",
+		"meanGE25Days": "17.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "24.7",
+		"maximum": "29.3",
+		"minimum": "22.2",
+		"maxGE30Days": "14.2",
+		"meanGE25Days": "13.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "22.9",
+		"maximum": "26.8",
+		"minimum": "20.7",
+		"maxGE30Days": "4.6",
+		"meanGE25Days": "3.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "19.8",
+		"maximum": "22.9",
+		"minimum": "17.9",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "17.2",
+		"maximum": "20.3",
+		"minimum": "15.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "13.5",
+		"maximum": "16.7",
+		"minimum": "11.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "9.2"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "88.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "88.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "86.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "85.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "84.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "85.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "82.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "83.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "84.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "87.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "88.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "88.3"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.8"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1994",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "91.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "83.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "100.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "100.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "106.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "117.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "171.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "164.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "136.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "112.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "99.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "88.6"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "220.0",
+		"GE01Days": "18.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "233.1",
+		"GE01Days": "16.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "193.1",
+		"GE01Days": "16.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "176.5",
+		"GE01Days": "13.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "279.0",
+		"GE01Days": "14.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "310.6",
+		"GE01Days": "14.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "215.7",
+		"GE01Days": "9.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "414.4",
+		"GE01Days": "13.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "662.8",
+		"GE01Days": "15.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "649.7",
+		"GE01Days": "18.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "430.6",
+		"GE01Days": "19.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "358.2",
+		"GE01Days": "19.3"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "2.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.7"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466950",
+	 "stationName": "彭佳嶼",
+	 "stationNameEN": "PENGJIAYU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1009.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1008.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1005.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1002.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "998.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "995.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "995.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "994.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "998.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1003.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1006.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1009.5"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "15.8",
+		"maximum": "17.9",
+		"minimum": "13.9",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "3.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "16.2",
+		"maximum": "18.5",
+		"minimum": "14.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "17.7",
+		"maximum": "20.3",
+		"minimum": "15.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "20.7",
+		"maximum": "23.4",
+		"minimum": "18.5",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.7",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "23.6",
+		"maximum": "26.4",
+		"minimum": "21.6",
+		"maxGE30Days": "2.7",
+		"meanGE25Days": "8.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "26.3",
+		"maximum": "29.3",
+		"minimum": "24.3",
+		"maxGE30Days": "14.9",
+		"meanGE25Days": "23.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.1",
+		"maximum": "31.3",
+		"minimum": "26.0",
+		"maxGE30Days": "26.0",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.0",
+		"maximum": "31.1",
+		"minimum": "25.9",
+		"maxGE30Days": "24.7",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "26.4",
+		"maximum": "29.0",
+		"minimum": "24.7",
+		"maxGE30Days": "9.2",
+		"meanGE25Days": "25.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "23.8",
+		"maximum": "25.9",
+		"minimum": "22.2",
+		"maxGE30Days": "0.6",
+		"meanGE25Days": "7.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.1",
+		"maximum": "23.1",
+		"minimum": "19.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "17.6",
+		"maximum": "19.6",
+		"minimum": "15.8",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.1"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "77.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "79.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "80.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "82.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "84.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "87.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "85.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "85.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "82.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "77.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "77.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.1"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "8.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "4.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.1"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "62.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "62.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "90.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "110.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "143.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "177.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "276.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "253.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "203.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "154.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "94.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "65.9"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "115.9",
+		"GE01Days": "16.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "122.2",
+		"GE01Days": "15.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "134.9",
+		"GE01Days": "17.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "130.0",
+		"GE01Days": "13.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "193.8",
+		"GE01Days": "13.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "190.9",
+		"GE01Days": "11.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "109.6",
+		"GE01Days": "6.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "185.9",
+		"GE01Days": "9.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "196.7",
+		"GE01Days": "11.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "124.5",
+		"GE01Days": "11.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "121.9",
+		"GE01Days": "14.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "127.0",
+		"GE01Days": "14.9"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "7.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "8.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "8.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.3"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467410",
+	 "stationName": "臺南",
+	 "stationNameEN": "TAINAN",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1016.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1015.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1013.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1010.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1007.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1005.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1004.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1003.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1006.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1010.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1013.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1015.8"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "17.8",
+		"maximum": "22.9",
+		"minimum": "14.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "18.9",
+		"maximum": "24.0",
+		"minimum": "15.5",
+		"maxGE30Days": "0.8",
+		"meanGE25Days": "0.6",
+		"minLE10Days": "1.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "21.6",
+		"maximum": "26.5",
+		"minimum": "18.0",
+		"maxGE30Days": "3.7",
+		"meanGE25Days": "3.9",
+		"minLE10Days": "0.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "24.9",
+		"maximum": "29.3",
+		"minimum": "21.7",
+		"maxGE30Days": "14.9",
+		"meanGE25Days": "17.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "27.5",
+		"maximum": "31.4",
+		"minimum": "24.7",
+		"maxGE30Days": "25.3",
+		"meanGE25Days": "28.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.9",
+		"maximum": "32.4",
+		"minimum": "26.3",
+		"maxGE30Days": "26.3",
+		"meanGE25Days": "29.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.4",
+		"maximum": "33.1",
+		"minimum": "26.7",
+		"maxGE30Days": "29.0",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.9",
+		"maximum": "32.6",
+		"minimum": "26.3",
+		"maxGE30Days": "27.6",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "28.6",
+		"maximum": "32.5",
+		"minimum": "26.0",
+		"maxGE30Days": "28.1",
+		"meanGE25Days": "29.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "26.3",
+		"maximum": "30.8",
+		"minimum": "23.3",
+		"maxGE30Days": "23.6",
+		"meanGE25Days": "24.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "23.4",
+		"maximum": "28.1",
+		"minimum": "20.3",
+		"maxGE30Days": "6.5",
+		"meanGE25Days": "7.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "19.6",
+		"maximum": "24.4",
+		"minimum": "16.3",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "0.4",
+		"minLE10Days": "0.5"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "75.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "75.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "73.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "74.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "75.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "77.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "76.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "78.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "72.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "74.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "73.7"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "5.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "4.8"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "177.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "163.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "180.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "178.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "195.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "196.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "208.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "175.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "184.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "201.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "170.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "170.3"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "20.9",
+		"GE01Days": "3.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "23.7",
+		"GE01Days": "4.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "31.1",
+		"GE01Days": "4.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "69.1",
+		"GE01Days": "5.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "160.1",
+		"GE01Days": "9.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "369.5",
+		"GE01Days": "12.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "353.5",
+		"GE01Days": "12.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "478.9",
+		"GE01Days": "15.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "167.6",
+		"GE01Days": "8.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "24.6",
+		"GE01Days": "2.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "26.9",
+		"GE01Days": "2.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "15.6",
+		"GE01Days": "2.7"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "3.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "3.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "3.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.5"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "466880",
+	 "stationName": "板橋",
+	 "stationNameEN": "BANQIAO",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1019.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1018.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1016.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1012.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1008.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1005.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1004.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1004.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1013.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1016.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1019.4"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.3",
+		"maximum": "19.6",
+		"minimum": "13.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "3.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.0",
+		"maximum": "20.9",
+		"minimum": "14.1",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "18.6",
+		"maximum": "22.7",
+		"minimum": "15.4",
+		"maxGE30Days": "1.4",
+		"meanGE25Days": "0.6",
+		"minLE10Days": "0.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "22.2",
+		"maximum": "26.5",
+		"minimum": "18.9",
+		"maxGE30Days": "8.1",
+		"meanGE25Days": "6.6",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.7",
+		"maximum": "30.0",
+		"minimum": "22.4",
+		"maxGE30Days": "17.6",
+		"meanGE25Days": "19.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.0",
+		"maximum": "32.7",
+		"minimum": "24.8",
+		"maxGE30Days": "24.8",
+		"meanGE25Days": "27.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.7",
+		"maximum": "34.8",
+		"minimum": "26.0",
+		"maxGE30Days": "30.3",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "29.3",
+		"maximum": "34.2",
+		"minimum": "25.9",
+		"maxGE30Days": "29.8",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.7",
+		"maximum": "31.9",
+		"minimum": "24.7",
+		"maxGE30Days": "23.3",
+		"meanGE25Days": "27.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.5",
+		"maximum": "27.9",
+		"minimum": "22.0",
+		"maxGE30Days": "8.6",
+		"meanGE25Days": "12.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.9",
+		"maximum": "25.1",
+		"minimum": "19.4",
+		"maxGE30Days": "3.4",
+		"meanGE25Days": "3.8",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "17.8",
+		"maximum": "21.0",
+		"minimum": "15.3",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "76.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "75.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "74.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "74.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "75.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "71.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "72.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "72.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "72.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "75.7"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.7"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "75.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "77.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "94.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "101.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "125.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "143.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "215.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "189.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "159.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "116.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "89.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "77.8"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "101.5",
+		"GE01Days": "12.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "136.1",
+		"GE01Days": "11.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "179.9",
+		"GE01Days": "14.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "134.6",
+		"GE01Days": "13.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "243.8",
+		"GE01Days": "13.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "345.6",
+		"GE01Days": "14.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "225.2",
+		"GE01Days": "11.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "319.0",
+		"GE01Days": "14.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "262.1",
+		"GE01Days": "12.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "129.1",
+		"GE01Days": "11.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "101.8",
+		"GE01Days": "12.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "110.3",
+		"GE01Days": "12.8"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "2002",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "2.5"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467650",
+	 "stationName": "日月潭",
+	 "stationNameEN": "SUN MOON LAKE",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "905.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "904.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "903.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "902.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "900.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "898.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "898.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "897.3"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "899.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "902.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "904.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "905.3"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "14.4",
+		"maximum": "19.4",
+		"minimum": "11.3",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "8.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "15.2",
+		"maximum": "20.3",
+		"minimum": "12.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "5.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "16.9",
+		"maximum": "22.1",
+		"minimum": "13.9",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "19.2",
+		"maximum": "24.2",
+		"minimum": "16.3",
+		"maxGE30Days": "0.6",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "21.1",
+		"maximum": "26.0",
+		"minimum": "18.5",
+		"maxGE30Days": "1.4",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "22.3",
+		"maximum": "27.2",
+		"minimum": "19.7",
+		"maxGE30Days": "3.3",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "22.9",
+		"maximum": "28.3",
+		"minimum": "20.1",
+		"maxGE30Days": "4.9",
+		"meanGE25Days": "0.6",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "22.7",
+		"maximum": "27.8",
+		"minimum": "20.0",
+		"maxGE30Days": "3.3",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "22.2",
+		"maximum": "27.2",
+		"minimum": "19.5",
+		"maxGE30Days": "2.0",
+		"meanGE25Days": "0.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "20.6",
+		"maximum": "25.6",
+		"minimum": "17.9",
+		"maxGE30Days": "0.6",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "18.6",
+		"maximum": "23.6",
+		"minimum": "15.7",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "15.6",
+		"maximum": "20.5",
+		"minimum": "12.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "4.8"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "76.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "78.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "80.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "82.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "84.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "85.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "84.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "85.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "84.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "81.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "79.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "77.3"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "7.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.6"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "159.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "136.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "128.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "109.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "109.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "111.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "140.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "125.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "123.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "147.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "160.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "157.0"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "56.7",
+		"GE01Days": "7.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "72.0",
+		"GE01Days": "8.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "103.1",
+		"GE01Days": "10.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "174.6",
+		"GE01Days": "13.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "354.6",
+		"GE01Days": "18.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "441.6",
+		"GE01Days": "20.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "394.5",
+		"GE01Days": "18.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "422.9",
+		"GE01Days": "19.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "192.1",
+		"GE01Days": "12.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "50.3",
+		"GE01Days": "5.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "38.4",
+		"GE01Days": "5.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "42.2",
+		"GE01Days": "6.4"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1.0"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467530",
+	 "stationName": "阿里山",
+	 "stationNameEN": "ALISHAN",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "765.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "765.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "765.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "765.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "764.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "763.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "763.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "762.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "763.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "765.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "766.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "766.2"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "6.5",
+		"maximum": "11.0",
+		"minimum": "3.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "30.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.3",
+		"maximum": "11.7",
+		"minimum": "4.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "28.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "9.5",
+		"maximum": "13.9",
+		"minimum": "6.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "30.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "11.5",
+		"maximum": "15.7",
+		"minimum": "8.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "24.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "13.1",
+		"maximum": "17.2",
+		"minimum": "10.2",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "12.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "14.4",
+		"maximum": "18.4",
+		"minimum": "11.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "14.7",
+		"maximum": "19.3",
+		"minimum": "11.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "14.6",
+		"maximum": "18.8",
+		"minimum": "11.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "14.0",
+		"maximum": "18.5",
+		"minimum": "11.0",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "7.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "12.4",
+		"maximum": "17.4",
+		"minimum": "9.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "19.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "10.7",
+		"maximum": "15.6",
+		"minimum": "7.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "25.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "8.0",
+		"maximum": "12.6",
+		"minimum": "4.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "30.5"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "80.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "83.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "81.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "84.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "89.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "89.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "91.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "92.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "91.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "86.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "82.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "80.6"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.1"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "149.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "120.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "138.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "120.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "103.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "108.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "118.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "102.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "105.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "135.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "143.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "148.3"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "86.8",
+		"GE01Days": "7.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "109.9",
+		"GE01Days": "8.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "146.6",
+		"GE01Days": "9.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "223.9",
+		"GE01Days": "12.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "510.4",
+		"GE01Days": "19.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "674.7",
+		"GE01Days": "19.7"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "694.7",
+		"GE01Days": "21.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "813.1",
+		"GE01Days": "22.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "402.7",
+		"GE01Days": "16.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "141.2",
+		"GE01Days": "9.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "66.9",
+		"GE01Days": "6.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "69.7",
+		"GE01Days": "7.4"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1.2"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467571",
+	 "stationName": "新竹",
+	 "stationNameEN": "HSINCHU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1016.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1015.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1013.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1010.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1006.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1003.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1003.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1002.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1005.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1010.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1013.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1016.6"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "15.7",
+		"maximum": "19.1",
+		"minimum": "13.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "4.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "16.0",
+		"maximum": "19.4",
+		"minimum": "13.4",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "3.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "18.0",
+		"maximum": "21.6",
+		"minimum": "15.2",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "0.3",
+		"minLE10Days": "0.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "21.9",
+		"maximum": "25.6",
+		"minimum": "18.9",
+		"maxGE30Days": "2.6",
+		"meanGE25Days": "5.0",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.2",
+		"maximum": "28.9",
+		"minimum": "22.2",
+		"maxGE30Days": "12.3",
+		"meanGE25Days": "17.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.9",
+		"maximum": "31.5",
+		"minimum": "24.9",
+		"maxGE30Days": "24.0",
+		"meanGE25Days": "27.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.3",
+		"maximum": "33.2",
+		"minimum": "26.0",
+		"maxGE30Days": "30.3",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.9",
+		"maximum": "32.8",
+		"minimum": "25.8",
+		"maxGE30Days": "29.0",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.3",
+		"maximum": "31.2",
+		"minimum": "24.4",
+		"maxGE30Days": "21.9",
+		"meanGE25Days": "26.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.4",
+		"maximum": "28.0",
+		"minimum": "21.8",
+		"maxGE30Days": "7.5",
+		"meanGE25Days": "11.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.5",
+		"maximum": "25.1",
+		"minimum": "18.8",
+		"maxGE30Days": "1.6",
+		"meanGE25Days": "2.1",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "17.7",
+		"maximum": "21.1",
+		"minimum": "15.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.6"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "78.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "80.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "79.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "78.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "78.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "77.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "74.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "75.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "74.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "73.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "75.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.3"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "7.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "7.5"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "7.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "5.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "6.2"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "106.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "91.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "101.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "111.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "145.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "185.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "240.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "209.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "193.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "190.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "144.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "126.1"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "75.7",
+		"GE01Days": "9.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "123.0",
+		"GE01Days": "11.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "159.8",
+		"GE01Days": "13.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "161.9",
+		"GE01Days": "12.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "249.0",
+		"GE01Days": "12.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "252.0",
+		"GE01Days": "10.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "120.2",
+		"GE01Days": "7.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "197.1",
+		"GE01Days": "10.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "174.5",
+		"GE01Days": "8.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "53.6",
+		"GE01Days": "5.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "51.1",
+		"GE01Days": "6.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "57.7",
+		"GE01Days": "8.0"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1992",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "2.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "2.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.4"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467550",
+	 "stationName": "玉山",
+	 "stationNameEN": "YUSHAN",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "641.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "641.1"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "641.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "642.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "642.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "643.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "643.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "642.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "643.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "644.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "644.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "642.6"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "-0.5",
+		"maximum": "4.6",
+		"minimum": "-4.0",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "-0.2",
+		"maximum": "4.5",
+		"minimum": "-3.4",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "28.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1.4",
+		"maximum": "6.4",
+		"minimum": "-1.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "3.6",
+		"maximum": "8.7",
+		"minimum": "0.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "30.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.0",
+		"maximum": "11.2",
+		"minimum": "3.0",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "7.4",
+		"maximum": "12.9",
+		"minimum": "4.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "29.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "8.0",
+		"maximum": "14.4",
+		"minimum": "4.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "7.8",
+		"maximum": "14.0",
+		"minimum": "4.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "7.4",
+		"maximum": "14.0",
+		"minimum": "4.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "30.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "6.6",
+		"maximum": "13.9",
+		"minimum": "2.8",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.1",
+		"maximum": "10.6",
+		"minimum": "0.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "30.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1.2",
+		"maximum": "6.7",
+		"minimum": "-2.1",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "31.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "62.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "70.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "76.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "80.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "81.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "80.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "77.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "81.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "66.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "65.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "63.1"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "3.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "4.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "5.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "5.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "3.9"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "3.6"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "207.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "158.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "151.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "139.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "133.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "135.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "171.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "150.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "158.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "213.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "199.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "197.1"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "83.7",
+		"GE01Days": "6.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "67.2",
+		"GE01Days": "6.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "94.8",
+		"GE01Days": "7.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "201.2",
+		"GE01Days": "13.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "423.6",
+		"GE01Days": "18.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "459.6",
+		"GE01Days": "18.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "434.2",
+		"GE01Days": "18.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "516.0",
+		"GE01Days": "18.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "297.2",
+		"GE01Days": "14.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "145.1",
+		"GE01Days": "10.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "98.3",
+		"GE01Days": "8.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "81.6",
+		"GE01Days": "6.5"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "5.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "4.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "6.0"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467770",
+	 "stationName": "梧棲",
+	 "stationNameEN": "WUQI",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1016.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1015.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1013.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1010.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1006.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1004.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1003.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1002.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1005.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1010.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1013.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1016.1"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "16.1",
+		"maximum": "19.2",
+		"minimum": "13.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "2.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "16.4",
+		"maximum": "19.6",
+		"minimum": "14.0",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "1.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "18.9",
+		"maximum": "22.3",
+		"minimum": "16.1",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "0.6",
+		"minLE10Days": "0.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "22.7",
+		"maximum": "26.0",
+		"minimum": "19.9",
+		"maxGE30Days": "2.4",
+		"meanGE25Days": "7.7",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.8",
+		"maximum": "28.9",
+		"minimum": "23.2",
+		"maxGE30Days": "11.5",
+		"meanGE25Days": "21.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.1",
+		"maximum": "31.1",
+		"minimum": "25.6",
+		"maxGE30Days": "23.1",
+		"meanGE25Days": "28.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "29.2",
+		"maximum": "32.2",
+		"minimum": "26.7",
+		"maxGE30Days": "29.7",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.9",
+		"maximum": "31.9",
+		"minimum": "26.4",
+		"maxGE30Days": "28.4",
+		"meanGE25Days": "30.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.6",
+		"maximum": "30.8",
+		"minimum": "25.1",
+		"maxGE30Days": "22.4",
+		"meanGE25Days": "28.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "24.7",
+		"maximum": "28.0",
+		"minimum": "22.2",
+		"maxGE30Days": "5.2",
+		"meanGE25Days": "13.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "21.8",
+		"maximum": "25.1",
+		"minimum": "19.3",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "1.7",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "18.1",
+		"maximum": "21.2",
+		"minimum": "15.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.9"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "78.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "79.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "77.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "77.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "78.5"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "78.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "76.2"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "75.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "73.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "76.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.0"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "4.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "3.7"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.1"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "148.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "122.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "143.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "146.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "175.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "191.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "242.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "213.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "208.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "222.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "168.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "160.8"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "32.0",
+		"GE01Days": "5.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "60.4",
+		"GE01Days": "7.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "81.5",
+		"GE01Days": "9.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "106.7",
+		"GE01Days": "9.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "202.2",
+		"GE01Days": "10.2"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "208.1",
+		"GE01Days": "10.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "183.5",
+		"GE01Days": "9.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "242.3",
+		"GE01Days": "10.9"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "91.0",
+		"GE01Days": "6.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "20.3",
+		"GE01Days": "2.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "23.1",
+		"GE01Days": "3.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "33.1",
+		"GE01Days": "4.6"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "4.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "4.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "3.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "3.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "3.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "3.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "4.2"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "5.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "6.2"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467350",
+	 "stationName": "澎湖",
+	 "stationNameEN": "PENGHU",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1018.5"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1017.5"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1015.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1012.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1008.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1006.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1005.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1004.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1007.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1012.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1015.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1018.2"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "17.1",
+		"maximum": "19.4",
+		"minimum": "15.5",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.4",
+		"maximum": "20.0",
+		"minimum": "15.6",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "19.9",
+		"maximum": "22.9",
+		"minimum": "17.8",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.4",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "23.2",
+		"maximum": "26.3",
+		"minimum": "21.1",
+		"maxGE30Days": "2.8",
+		"meanGE25Days": "7.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "25.9",
+		"maximum": "29.1",
+		"minimum": "24.0",
+		"maxGE30Days": "11.3",
+		"meanGE25Days": "22.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "27.9",
+		"maximum": "30.9",
+		"minimum": "25.9",
+		"maxGE30Days": "21.7",
+		"meanGE25Days": "29.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.9",
+		"maximum": "32.2",
+		"minimum": "26.7",
+		"maxGE30Days": "28.1",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.6",
+		"maximum": "31.8",
+		"minimum": "26.6",
+		"maxGE30Days": "26.4",
+		"meanGE25Days": "31.0",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "28.0",
+		"maximum": "31.0",
+		"minimum": "26.1",
+		"maxGE30Days": "22.9",
+		"meanGE25Days": "29.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "25.5",
+		"maximum": "28.2",
+		"minimum": "24.0",
+		"maxGE30Days": "5.8",
+		"meanGE25Days": "20.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "22.7",
+		"maximum": "25.1",
+		"minimum": "21.3",
+		"maxGE30Days": "0.3",
+		"meanGE25Days": "3.1",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "19.1",
+		"maximum": "21.3",
+		"minimum": "17.7",
+		"maxGE30Days": "0.0",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "78.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "80.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "80.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "80.9"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "82.8"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "85.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "83.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "84.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "79.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "76.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "76.8"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "7.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.3"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "5.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "7.0"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "102.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "98.7"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "131.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "153.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "183.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "211.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "265.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "231.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "214.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "186.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "129.2"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "111.4"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "20.9",
+		"GE01Days": "5.2"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "38.1",
+		"GE01Days": "6.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "50.7",
+		"GE01Days": "7.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "77.9",
+		"GE01Days": "8.7"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "117.8",
+		"GE01Days": "9.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "148.0",
+		"GE01Days": "10.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "163.2",
+		"GE01Days": "8.1"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "229.4",
+		"GE01Days": "9.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "100.3",
+		"GE01Days": "5.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "30.1",
+		"GE01Days": "2.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "26.0",
+		"GE01Days": "3.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "28.1",
+		"GE01Days": "4.8"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "4.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "4.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "3.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "3.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.7"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "3.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.8"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467490",
+	 "stationName": "臺中",
+	 "stationNameEN": "TAICHUNG",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1008.9"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1008.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1005.9"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1003.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "999.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "997.8"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "996.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "996.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "998.6"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1002.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1006.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1008.6"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "17.0",
+		"maximum": "22.3",
+		"minimum": "13.4",
+		"maxGE30Days": "0.1",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "3.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "17.7",
+		"maximum": "22.9",
+		"minimum": "14.2",
+		"maxGE30Days": "0.7",
+		"meanGE25Days": "0.1",
+		"minLE10Days": "1.8"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "20.1",
+		"maximum": "25.2",
+		"minimum": "16.4",
+		"maxGE30Days": "3.0",
+		"meanGE25Days": "1.6",
+		"minLE10Days": "0.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "23.5",
+		"maximum": "28.1",
+		"minimum": "20.1",
+		"maxGE30Days": "9.9",
+		"meanGE25Days": "10.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "26.4",
+		"maximum": "30.7",
+		"minimum": "23.1",
+		"maxGE30Days": "20.8",
+		"meanGE25Days": "24.4",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.1",
+		"maximum": "32.3",
+		"minimum": "24.9",
+		"maxGE30Days": "25.6",
+		"meanGE25Days": "28.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.9",
+		"maximum": "33.3",
+		"minimum": "25.5",
+		"maxGE30Days": "29.4",
+		"meanGE25Days": "30.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.4",
+		"maximum": "32.7",
+		"minimum": "25.3",
+		"maxGE30Days": "28.3",
+		"meanGE25Days": "30.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.8",
+		"maximum": "32.2",
+		"minimum": "24.6",
+		"maxGE30Days": "27.1",
+		"meanGE25Days": "29.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "25.5",
+		"maximum": "30.3",
+		"minimum": "22.2",
+		"maxGE30Days": "19.5",
+		"meanGE25Days": "19.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "22.6",
+		"maximum": "27.6",
+		"minimum": "19.0",
+		"maxGE30Days": "6.1",
+		"meanGE25Days": "4.4",
+		"minLE10Days": "0.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "18.7",
+		"maximum": "23.9",
+		"minimum": "15.1",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "0.0",
+		"minLE10Days": "1.6"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "74.4"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "75.2"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "74.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "75.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "75.7"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "76.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "74.9"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "77.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "74.3"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "70.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "72.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "72.6"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "6.4"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "6.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.6"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "6.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.0"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "174.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "148.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "152.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "138.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "154.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "160.9"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "192.7"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "161.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "173.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "205.9"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "174.4"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "174.2"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "36.6",
+		"GE01Days": "6.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "63.0",
+		"GE01Days": "8.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "86.9",
+		"GE01Days": "10.1"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "126.8",
+		"GE01Days": "10.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "249.6",
+		"GE01Days": "12.3"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "329.0",
+		"GE01Days": "14.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "303.3",
+		"GE01Days": "13.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "340.8",
+		"GE01Days": "15.8"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "147.5",
+		"GE01Days": "8.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "25.0",
+		"GE01Days": "3.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "23.8",
+		"GE01Days": "4.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "30.5",
+		"GE01Days": "5.3"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1.5"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1.5"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1.4"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1.6"
+	   }
+	  ]
+	 }
+	}
+   },
+   {
+	"station": {
+	 "stationID": "467590",
+	 "stationName": "恆春",
+	 "stationNameEN": "HENGCHUN",
+	 "stationAttribute": "局屬有人氣象站"
+	},
+	"stationObsStatistics": {
+	 "stationPressure": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "1015.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "1014.6"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "1012.7"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "1010.2"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "1007.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "1005.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "1004.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "1003.6"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "1005.8"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "1009.8"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "1012.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "1015.0"
+	   }
+	  ]
+	 },
+	 "temperature": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "21.1",
+		"maximum": "24.4",
+		"minimum": "18.6",
+		"maxGE30Days": "0.2",
+		"meanGE25Days": "0.2",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "21.7",
+		"maximum": "25.5",
+		"minimum": "19.0",
+		"maxGE30Days": "0.6",
+		"meanGE25Days": "1.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "23.3",
+		"maximum": "27.3",
+		"minimum": "20.5",
+		"maxGE30Days": "5.3",
+		"meanGE25Days": "8.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "25.4",
+		"maximum": "29.5",
+		"minimum": "22.6",
+		"maxGE30Days": "14.6",
+		"meanGE25Days": "19.3",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "27.3",
+		"maximum": "31.2",
+		"minimum": "24.5",
+		"maxGE30Days": "24.2",
+		"meanGE25Days": "28.7",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "28.4",
+		"maximum": "31.8",
+		"minimum": "25.8",
+		"maxGE30Days": "26.0",
+		"meanGE25Days": "29.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "28.7",
+		"maximum": "32.1",
+		"minimum": "26.0",
+		"maxGE30Days": "28.1",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "28.3",
+		"maximum": "31.8",
+		"minimum": "25.6",
+		"maxGE30Days": "26.3",
+		"meanGE25Days": "30.9",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "27.8",
+		"maximum": "31.3",
+		"minimum": "25.1",
+		"maxGE30Days": "24.5",
+		"meanGE25Days": "29.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "26.5",
+		"maximum": "29.7",
+		"minimum": "24.1",
+		"maxGE30Days": "13.8",
+		"meanGE25Days": "27.5",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "24.7",
+		"maximum": "27.8",
+		"minimum": "22.5",
+		"maxGE30Days": "4.6",
+		"meanGE25Days": "13.8",
+		"minLE10Days": "0.0"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "22.2",
+		"maximum": "25.1",
+		"minimum": "20.0",
+		"maxGE30Days": "0.4",
+		"meanGE25Days": "1.9",
+		"minLE10Days": "0.0"
+	   }
+	  ]
+	 },
+	 "relativeHumidity": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "70.8"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "72.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "71.8"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "73.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "76.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "81.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "80.5"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "82.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "77.7"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "71.4"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "70.5"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "69.2"
+	   }
+	  ]
+	 },
+	 "cloudCover": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "5.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "5.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "5.4"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "6.1"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "5.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "6.2"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "5.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "5.1"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "5.1"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.4"
+	   }
+	  ]
+	 },
+	 "sunshineDuration": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"total": "163.7"
+	   },
+	   {
+		"dataMonth": "2",
+		"total": "161.3"
+	   },
+	   {
+		"dataMonth": "3",
+		"total": "194.3"
+	   },
+	   {
+		"dataMonth": "4",
+		"total": "189.8"
+	   },
+	   {
+		"dataMonth": "5",
+		"total": "193.1"
+	   },
+	   {
+		"dataMonth": "6",
+		"total": "193.2"
+	   },
+	   {
+		"dataMonth": "7",
+		"total": "210.3"
+	   },
+	   {
+		"dataMonth": "8",
+		"total": "182.1"
+	   },
+	   {
+		"dataMonth": "9",
+		"total": "180.1"
+	   },
+	   {
+		"dataMonth": "10",
+		"total": "196.3"
+	   },
+	   {
+		"dataMonth": "11",
+		"total": "174.6"
+	   },
+	   {
+		"dataMonth": "12",
+		"total": "157.7"
+	   }
+	  ]
+	 },
+	 "precipitation": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"accumulation": "21.8",
+		"GE01Days": "5.1"
+	   },
+	   {
+		"dataMonth": "2",
+		"accumulation": "23.2",
+		"GE01Days": "5.0"
+	   },
+	   {
+		"dataMonth": "3",
+		"accumulation": "16.0",
+		"GE01Days": "3.2"
+	   },
+	   {
+		"dataMonth": "4",
+		"accumulation": "35.2",
+		"GE01Days": "4.3"
+	   },
+	   {
+		"dataMonth": "5",
+		"accumulation": "146.6",
+		"GE01Days": "9.4"
+	   },
+	   {
+		"dataMonth": "6",
+		"accumulation": "350.7",
+		"GE01Days": "15.0"
+	   },
+	   {
+		"dataMonth": "7",
+		"accumulation": "391.3",
+		"GE01Days": "15.8"
+	   },
+	   {
+		"dataMonth": "8",
+		"accumulation": "533.4",
+		"GE01Days": "17.5"
+	   },
+	   {
+		"dataMonth": "9",
+		"accumulation": "320.3",
+		"GE01Days": "13.5"
+	   },
+	   {
+		"dataMonth": "10",
+		"accumulation": "125.3",
+		"GE01Days": "8.6"
+	   },
+	   {
+		"dataMonth": "11",
+		"accumulation": "58.3",
+		"GE01Days": "4.7"
+	   },
+	   {
+		"dataMonth": "12",
+		"accumulation": "29.0",
+		"GE01Days": "4.0"
+	   }
+	  ]
+	 },
+	 "windSpeed": {
+	  "startYear": "1991",
+	  "endYear": "2020",
+	  "monthly": [
+	   {
+		"dataMonth": "1",
+		"mean": "4.3"
+	   },
+	   {
+		"dataMonth": "2",
+		"mean": "3.9"
+	   },
+	   {
+		"dataMonth": "3",
+		"mean": "3.6"
+	   },
+	   {
+		"dataMonth": "4",
+		"mean": "3.1"
+	   },
+	   {
+		"dataMonth": "5",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "6",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "7",
+		"mean": "2.6"
+	   },
+	   {
+		"dataMonth": "8",
+		"mean": "2.4"
+	   },
+	   {
+		"dataMonth": "9",
+		"mean": "2.9"
+	   },
+	   {
+		"dataMonth": "10",
+		"mean": "4.2"
+	   },
+	   {
+		"dataMonth": "11",
+		"mean": "4.8"
+	   },
+	   {
+		"dataMonth": "12",
+		"mean": "5.0"
+	   }
+	  ]
+	 }
+	}
+   }
+  ]
+ 
+
+}
